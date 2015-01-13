@@ -1,0 +1,15 @@
+1: Beginner
+2: Funny
+3: Hilarious
+4: Comedian
+5: Respect crazy
+6: Respect millionaire
+7: Respect proffessional
+8: Famous
+9: Celebrity
+10: Respect sensei
+11: Respect rich
+12: Respect elite
+13: Sir65 Demigod
+14: Sir65 God
+15: Absolute number 1

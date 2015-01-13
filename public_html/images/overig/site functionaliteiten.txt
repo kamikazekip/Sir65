@@ -1,0 +1,94 @@
+- Infinite scrolling (<-- Deze was een bitch, niet gezond) (( Het betekent trouwens dat de site automatisch extra posts laadt naarmate je naar beneden scrolled zonder de pagina te verversen (((AJAX))) ))
+
+- 100% Multi-language (Holy poep, zelfs de slogan veranderd mee)
+
+- Image list, scrolling triggered door percentage gescrolled
+
+- Speed / Performance geobsedeerd.
+
+- Profielen
+
+- Respectsysteem
+
+- AJAX, meerdere views ( Views verversen zonder refresh / RTT )
+
+- Commentsysteem inclusief respect
+
+- Image uploaden
+
+- Community driven
+
+- Front page, Popular, nieuw, halloffame en topic laten de juiste afbeeldingen zien
+
+- Header kan omhoog voor maximaal van de main content genieten
+
+- Mooi design die zich aan drie basekleuren houdt: #0dbeff ( Blauwtint ), zwart, en een of andere grijs (Boeie), maar ook meerdere kleuren gebruikt waar nodig
+
+- Instellingen
+
+- JQuery animations
+
+- Breadcrumbs
+
+- Mouse hovers
+
+- Top comments met bijbehorende animaties
+
+- Notifications design, animaties versturen en ontvangen
+
+- Profile pictures veranderen
+
+- Pretty URL's ( Dus bijvoorbeeld: www.site.com/posts/13 i.p.v. www.site.com/r/FJfwijQjo34QJM
+
+- Authentication system
+
+- Easy to add talen ( Serieus, als ik wil heb ik chinees er in 5 minuten in zitten )
+
+- Elke view kan hergebruikt worden
+
+- Geen enkele file die code bevat is groter dan 150 regels, dus menes overzichtelijk
+
+- 2 Easter eggs
+
+- Zwaar modulaire views (dit betekent minder code)
+
+- De header (Dus dat hele geval bovenin), is 36 regels lang (Holy shit dat is nog eens geoptimalizeerd)
+
+- Bijzonder lightweight ( Klein, 
+
+- Media queries
+
+- NSFW Switch
+
+- Design geoptimaliseerd voor 1920 x 1080 tot en met 840 x eenHoogte
+
+- Goed gestructureerde code
+
+- Humor door pagina's heen
+
+- About pagina met humor
+
+- Iconische favicon
+
+- Titels veranderen ook mee met language
+
+- Goede photoshop documentatie
+
+- Overzichtelijke relationele database met intuitieve namen, tevens ook snel
+
+- Goede validatie tijdens inloggen / account maken / uploaden / comments schrijven etc.
+
+- Notification accordion
+
+- Notification reply, deletion
+
+- Overzichtelijke composers
+
+- Geoptimaliseerde Javascript
+
+- Kijk hoe lang dit document is omdat er zoveel inzit, ik vindt dat ik een bonusfunctionaliteit krijg ( <--- dat is deze )
+
+
+- ONTZETTEND VEEL KLEINE DINGEN DIE NIET METEEN OPVALLEN, DIT ZIJN ER EEN STUK OF 300, en
+nou denk je misschien van: wojoo 300 is best overdreven, ik denk dat dat eerder een 
+understatement is.

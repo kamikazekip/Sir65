@@ -1,0 +1,8 @@
+CACHE MANIFEST
+
+CACHE:
+/images/header/buttonIn.png
+/images/header/buttonOut.png
+
+NETWORK:
+*

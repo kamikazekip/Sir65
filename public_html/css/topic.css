@@ -1,0 +1,22 @@
+#topic { position:fixed; top:87px; left:0px;}
+#topicBanner { width:100%; height:auto; position:relative; top:0px; left:0px; border-bottom:3px solid #0dbeff;}
+#topicIcon { width:80px; height:60px; float:left; }
+#topicStrength { width:205px; height:100%; margin:auto;}
+    #topicData { width:125px; height:100%; float:left; text-align:center; font-size: 23px;}
+                #topicData #buffer { width:100%; height:30%;}
+.topicButton { width:12.6%; height: 35px; color:#0dbeff; font-size:30px; background-color:#000; text-align: center; position:relative; border:3px solid #0dbeff; border-left:none; top:-3px; left:0px;}
+@media only screen and (max-width : 960px) {
+        .topicButton {font-size:23px;}
+}
+@media only screen and (max-width : 580px) {
+        .topicButton {font-size:16px;}
+}
+#upButton { background-color:#0dbeff;}
+#upButton:hover { background-color:white; }
+
+#topicContainer { position:relative; top:300px; left: 0; width:100%; height:100%; z-index:-1; }
+#topicInfo { width:26%; height:100%; float:left; z-index: 999; }
+    #topicBuffer { width:100%; height:4%; }
+    #infoBlock {width:100%; height:150px; text-align:center; margin-bottom:4.5%; }
+        #infoBlock .topInfo { width:100%; height:50%; text-align: center; font-size:72px; color:#0dbeff; }
+        #infoBlock #bottomInfo { width:100%; height:50%; text-align: center; font-size:48px;}

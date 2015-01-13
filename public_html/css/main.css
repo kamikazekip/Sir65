@@ -1,0 +1,38 @@
+html, body { width:100%; height:100%; margin:0; padding:0; color:#000;}
+body{background-color:#e4e4e4;}
+a { text-decoration:none; color:#0dbeff;}
+
+#contentContainer { height:100%; position:absolute; top:84px; width:100%; }
+@media only screen and (max-width : 1268px) {
+        #contentContainer {margin-top:20px;}
+}
+
+#line-separator{height:2px; width:100%; margin:0; padding:0; background:#717171;}
+
+#messageBlock { width:80%; height: 100%; margin:auto; font-family: "Times New Roman", Times, serif; }
+    #messageTitle { font-size:72px; margin:auto; margin-top:20px; width:70%; text-align: center; }
+    #messageContent { width:100%; height:70%; margin:0; margin-top: 35px; }
+        #messagePres { width:32%; height:100%;  float: left;}
+            #messagePre{ width:100%; height:85px; text-align: right; font-size:48px; }
+        #messageInputFields {width:35%; height:100%; margin:auto; float:left;}
+            #messageInputField { width:95%; font-size:36px; text-align: left; float:right; margin-bottom:37px; margin-top:10px;}
+                #nsfwCheck { height: 40px; width: 40px; margin-left:0px; margin-top:0px;}
+            #messageInputSubmit { width:96%; font-size:36px; text-align: center; float:right; margin-bottom:37px; margin-top:7px; padding:0;}
+        #messageContent #errorField {width:33%; color:red; text-align: center; float:right; }
+            #messageContent #errorField #error {width:100%; height:80px; font-size:36px;}
+#message {font-size:48px;}
+
+
+#settingsColumn { width:100%; height:80px; font-family: "Times New Roman", Times, serif; font-size:24px; float:left; color:black; }
+    #settingsLabel { padding-top:10px; }
+    #switchImage {padding:0px 10px 0px 10px;}
+    
+
+
+
+#errorBlock { width:80%; height: 100%; margin:auto; font-family: "Times New Roman", Times, serif; text-align: center;}
+    #errorhandlingImage { margin:auto;}
+       #errorhandlingMessage { font-size:32px; }
+
+#bearsTitle {width:100%; text-align: center;  font-size:48px; font-weight:300;}
+#bears { margin:auto; width:1280px; margin-top:50px; text-align: center; }
