@@ -6,7 +6,7 @@
          #commentSection #comment { width:100%; text-align: left; }
          #noComments { width:100%; height: 100%;  text-align: center; }
          
-#postCommentblock { width:100%; font-family:"Times New Roman", Times, serif; font-size:24px; color:#848484;}
+#postCommentblock { width:100%; font-size:24px; color:#848484;}
     #postCommentblock #writeCommentBlock {width:100%; height:60px; margin-top:26px;}
         #postCommentblock #writeCommentBlock #userImageDiv { width:50px; height: 50px; float:left;}
         #postCommentblock #writeCommentBlock #userImageDiv #userImage { width:100%; height:100%; }

@@ -1,34 +1,19 @@
-#header { width:100%; height:84px; background-color: #000; border-bottom: 3px solid #0dbeff; color:#0dbeff; position:fixed; top:0; left:0; z-index: 50;}
-@media only screen and (max-width : 1268px) {
-        #header {font-size:20px;}
-}
+#header { width:100%; height:84px; background-color: #000; border-bottom: 3px solid #0dbeff; color:#0dbeff; position:fixed; top:0; left:0; z-index: 50; }
     #sloganImage {margin-left:80px; float:left; width:296px; height:76px; margin-top:6px; }
-    @media only screen and (max-width : 1268px) {
-        #sloganImage {display:none;}
-    }
-    #postStreamDiv { width:500px; display:block; height:100%; margin:auto; font-family:"Times New Roman", Times, serif; font-size:24px;}
-    @media only screen and (max-width : 1268px) {
-        #postStreamDiv {margin-left:10%;}
-    }
+    #postStreamDiv { width:500px; display:block; height:100%; margin:auto; font-size:24px;}
         #postStreamDiv #headerList {width:100%; padding:17px 0px 0px 0px; display:table; }
             #postStreamDiv #headerList li {display:table-cell; padding-left:3px; padding-right:3px; text-align: center;}
-                #postStreamItem:hover { color:#fff; }
                 #postStreamActiveItem { border: 1px solid #0dbeff; }
-                #postStreamActiveItem:hover { color:#fff; }
     #userbutton{ position:absolute; right:40px; top:31px; font-size: 36px; text-align:center;}
-        #userbutton:hover { color:white;}
         #userNotifications{position:absolute; right:159px; top:19px; width:20px; height:20px; text-align: center; background-color:red; color: white; border: 1px solid red; border-radius: 4px;}
-    #uploadButton { position:absolute; width:150px; height:31px; font-family: "Times New Roman", Times, serif; font-size:24px; right:303px; top:84px; text-align: center; border: 3px solid #0dbeff; background-color:black;}
-        #uploadButton:hover { color:white;}
-    #homeButton { position:absolute; width:150px; height:31px; font-family: "Times New Roman", Times, serif; font-size:24px; left:-3px; top:84px; text-align: center; border: 3px solid #0dbeff; background-color:black; opacity:0; cursor:default;}
-        #homeButton:hover { color:white; }
-    #profilesButton { position:absolute; width:150px; height:31px; font-family: "Times New Roman", Times, serif; font-size:24px; right:150px; top:84px; text-align: center; border: 3px solid #0dbeff; background-color:black; }
-       #profilesButton:hover { color:white; }
-    #theIdea { position:absolute; width:150px; height:31px; font-family: "Times New Roman", Times, serif; font-size: 24px; left:147px; top:84px; text-align: center; border:3px solid #0dbeff; background-color:black; opacity:0; cursor: default; }
-        #theIdea:hover { color:white; }
-    #slidingButtonDiv {background-color:#0dbeff; width:150px; height:31px; margin:auto; position:absolute; top:84px; z-index: 2; border: 3px solid #0dbeff;  right:-3px;}
-    #slidingButtonDiv:hover { background-color:white;}
-    #slidingButton {  }
-#optionsDiv {position:absolute; width:40px; height:31px; font-family: "Times New Roman", Times, serif; font-size:24px; right:456px; top:84px; background-color:#0dbeff; text-align: center; border: 3px solid #0dbeff; }    
-    #optionsDiv:hover { background-color:white;}
-    #optionsImage:hover { }
+    #uploadButton { position:absolute; width:150px; height:31px; right:303px; top:84px;}
+    #homeButton { position:absolute; width:150px; height:31px; left:-3px; top:84px; opacity:0; cursor:default;}
+    #profilesButton { position:absolute; width:150px; height:31px; right:150px; top:84px;; }
+    #theIdea { position:absolute; width:150px; height:31px; left:147px; top:84px; opacity:0; cursor: default; }
+    #slidingButtonDiv { width:150px; height:31px; margin:auto; position:absolute; top:84px; z-index: 2; border: 3px solid #0dbeff;  right:-3px;}
+#optionsDiv {position:absolute; width:40px; height:31px; font-size:24px; right:456px; top:84px; text-align: center; border: 3px solid #0dbeff; }    
+    
+.headerButton:hover { color:white; }
+.headerButtonImage { background-color:#0dbeff; }
+.headerButtonImage:hover { background-color:white }
+.headerBelowButton { font-size:24px; border:3px solid #0dbeff; background-color:black; text-align:center; }

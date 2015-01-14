@@ -1,14 +1,11 @@
-#frontPage { width:100%; font-family: "Times New Roman", Times, serif; opacity: 0; }
+#frontPage { width:100%; opacity: 0; }
     #mainFrontPage{ width:500px; margin:auto;}
-    @media only screen and (max-width : 1268px) {
-        #mainFrontPage {margin-left:10%;}
-    }
         #post{ width:100%; font-size:36px; color:#828282; margin-top:18px; }
             #post #title { width:100%; text-align: left; background-color:#fff; margin-bottom:10px;}
             #post #actualPostdiv { position:relative; }
             #post #actualPostdiv #actualPost { z-index: 5}
             #post #nsfwBannerDiv { width:100%; height:30px; font-size: 20px; margin-top:15px; margin-bottom:-15px;}
-            #post #nsfwBannerDiv #nsfwBanner { width:70px; height:100%; background-color: red; color:white; text-align: center; border: 1px solid red; border-radius: 6px; } 
+            #post #nsfwBannerDiv #nsfwBanner { width:70px; background-color: red; color:white; text-align: center; border: 1px solid red; border-radius: 6px; } 
             #post #respectDIV { width:100%; height:90px; margin-top:15px; margin-bottom:15px; background-color:#fff;}
                 #post #respectDIV #usernames { width:60%; float:left;}
                     #post #respectDIV #usernames #profileLink { color:#828282; }

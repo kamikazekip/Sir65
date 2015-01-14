@@ -1,15 +1,12 @@
-html, body { width:100%; height:100%; margin:0; padding:0; color:#000;}
+html, body { width:100%; height:100%; margin:0; padding:0; color:#000; font-family: "Times New Roman", Times, serif;}
 body{background-color:#e4e4e4;}
 a { text-decoration:none; color:#0dbeff;}
 
 #contentContainer { height:100%; position:absolute; top:84px; width:100%; }
-@media only screen and (max-width : 1268px) {
-        #contentContainer {margin-top:20px;}
-}
 
 #line-separator{height:2px; width:100%; margin:0; padding:0; background:#717171;}
 
-#messageBlock { width:80%; height: 100%; margin:auto; font-family: "Times New Roman", Times, serif; }
+#messageBlock { width:80%; height: 100%; margin:auto;  }
     #messageTitle { font-size:72px; margin:auto; margin-top:20px; width:70%; text-align: center; }
     #messageContent { width:100%; height:70%; margin:0; margin-top: 35px; }
         #messagePres { width:32%; height:100%;  float: left;}
@@ -22,15 +19,15 @@ a { text-decoration:none; color:#0dbeff;}
             #messageContent #errorField #error {width:100%; height:80px; font-size:36px;}
 #message {font-size:48px;}
 
-
-#settingsColumn { width:100%; height:80px; font-family: "Times New Roman", Times, serif; font-size:24px; float:left; color:black; }
-    #settingsLabel { padding-top:10px; }
-    #switchImage {padding:0px 10px 0px 10px;}
+#settingsBlock { width:60%; margin:auto; height:60%; position:relative; top:10%; text-align: center; }
+    #settingsColumn { width:100%; height:80px; font-size:24px; float:left; color:black; }
+        #settingsLabel { padding-top:10px; }
+        #switchImage {padding:0px 10px 0px 10px;}
     
 
 
 
-#errorBlock { width:80%; height: 100%; margin:auto; font-family: "Times New Roman", Times, serif; text-align: center;}
+#errorBlock { width:80%; height: 100%; margin:auto; text-align: center;}
     #errorhandlingImage { margin:auto;}
        #errorhandlingMessage { font-size:32px; }
 

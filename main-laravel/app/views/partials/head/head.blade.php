@@ -8,13 +8,15 @@
 <link rel="icon" type="image/png" href="images/header/favicon.png">
 
 <!-- CSS -->
-{{ HTML::style('css/comment.css'); }}
-{{ HTML::style('css/header.css'); }}
-{{ HTML::style('css/main.css'); }}
-{{ HTML::style('css/user.css'); }}
-{{ HTML::style('css/post.css'); }}
-{{ HTML::style('css/topic.css'); }}
-{{ HTML::style('css/jquerydropdown.css'); }}
+{{ HTML::style('css/comment.css');          }}
+{{ HTML::style('css/header.css');           }}
+{{ HTML::style('css/jquerydropdown.css');   }}
+{{ HTML::style('css/main.css');             }}
+{{ HTML::style('css/mediaQuery.css');       }}
+{{ HTML::style('css/post.css');             }}
+{{ HTML::style('css/topic.css');            }}
+{{ HTML::style('css/user.css');             }}
+
 
 
 

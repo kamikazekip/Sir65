@@ -1,0 +1,19 @@
+/* 
+    Created on : 14-jan-2015, 14:45:50
+    Author     : Erik
+*/
+
+@media only screen and (max-width : 1268px) {
+        #contentContainer {margin-top:20px;}
+        #mainFrontPage {margin-left:10%;}
+        #header { font-size:20px; }
+        #postStreamDiv { margin-left:10%; }
+        #sloganImage { display:none; }
+}
+
+@media only screen and (max-width : 960px) {
+        .topicButton {font-size:23px;}
+}
+@media only screen and (max-width : 580px) {
+        .topicButton {font-size:16px;}
+}

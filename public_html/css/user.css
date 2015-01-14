@@ -4,7 +4,7 @@
         #userInput { width:50%; height:30px; text-align: center; font-size:28px; }
         #loginButton {width:50%; height:30px; margin-top:20px; }
     
-    #profileBlock { width:80%; height: 100%; margin:auto; font-family: "Times New Roman", Times, serif; }
+    #profileBlock { width:80%; height: 100%; margin:auto; }
         #profileTitle { font-size:72px; margin:auto; margin-top:20px; width:70%; text-align: center; }
         #profileContent { width:100%; height:70%; margin:0; margin-top: 35px; color:#0dbeff; }
             #profileOptions {width:23%; height:100%; float:left; }
@@ -30,7 +30,7 @@
                 #searchResultUser { width:100%; height:50%; text-align:center; float:left;}
                 #searchResultRespect { width:100%; height:50%; text-align: center; float:left; }
                     #searchResultRespect #respectIcon { position:relative; top:10px; } 
-    .notificationBlock {width:100%; height:75px; font-family: "Times New Roman", Times, serif; font-size:48px; border:2px solid white; color:black; outline:none; }
+    .notificationBlock {width:100%; height:75px; font-size:48px; border:2px solid white; color:black; outline:none; }
         #notificationUser {  width:10%; padding-top:5px; float:left; text-align:center;}
             #notificationActualUser{width:95%; float:right; text-align: left; }
         #notificationTitle { width:80%; text-align: center; float:left; padding-top:5px;}
