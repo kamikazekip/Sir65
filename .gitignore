@@ -2,5 +2,7 @@ nbproject/private/config.properties
 nbproject/private/private.properties
 nbproject/project.properties
 nbproject/project.xml
+nbproject
 *.sublime-project
 *.sublime-workspace
+nbproject/private/private.xml

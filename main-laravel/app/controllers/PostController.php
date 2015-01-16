@@ -118,7 +118,7 @@ class PostController extends BaseController {
             $newComment->save();
             return Redirect::to('/posts/' . $id);
         } else {
-            return Redirect::to('/upload')->withErrors($validator)->withInput();
+            return Redirect::to('/posts/' . $id)->withErrors($validator)->withInput();
         }
     }
     
