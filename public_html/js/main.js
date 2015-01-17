@@ -103,9 +103,9 @@ function giveCommentRespect(commentID, respect){
     $.post('commentRespect', {commentID: commentID});
 }
 
-function giveRespect(username, postnumber, userRespect, userId, postRespect){
-    userRespect++;
-    postRespect++;
+function giveRespect(username, postnumber, userRespect, userId, postRespect, respectToGive){
+    userRespect += respectToGive;
+    postRespect += respectToGive;
     var divNameUser = "#userRespectNumber" + postnumber;
     var divNamePost = "#postRespectNumber" + postnumber;
     $(divNameUser).html(userRespect + " respect");
@@ -115,9 +115,9 @@ function giveRespect(username, postnumber, userRespect, userId, postRespect){
     $.post('respect', {username: username, userId: userId, postnumber: postnumber});
 }
 
-function giveDislike(username, postnumber, userRespect, userId, postRespect){
-    userRespect--;
-    postRespect--;
+function giveDislike(username, postnumber, userRespect, userId, postRespect, respectToGive){
+    userRespect -= respectToGive;
+    postRespect -= respectToGive;
     var divNameUser = "#userRespectNumber" + postnumber;
     var divNamePost = "#postRespectNumber" + postnumber;
     $(divNameUser).html(userRespect + " respect");

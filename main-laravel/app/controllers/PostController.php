@@ -93,8 +93,25 @@ class PostController extends BaseController {
     }
     
     public function giveDislike(){
-        user::where('username','=', Input::get('username'))->first()->decrement('respect', 1);
-        post::where('id', '=', Input::get('postnumber'))->first()->decrement('respect', 1);
+        if(Auth::check()){
+    		$respectAmount = round((Auth::user()->respect/50), 0, PHP_ROUND_HALF_DOWN) * -1;
+    		$giver_id = Auth::user()->id;
+    	} else{
+    		$respectAmount = -1;
+    		$giver_id = null;
+    	}
+        $respect = new Respect();
+        $respect->giver_id = $giver_id;
+        $respect->created_at = time();
+        $respect->updated_at = time();
+        $respect->post_id = Input::get('postnumber');
+        $respect->user_id = Input::get('userId');
+        $respect->amount = $respectAmount;
+        $respect->save();
+        
+        //Needs to be increment, else the machine will do respect - - 1 = respect + 1, this is not what we want
+        user::where('username','=', Input::get('username'))->first()->increment('respect', $respectAmount);
+        post::where('id', '=', Input::get('postnumber'))->first()->increment('respect', $respectAmount);
     }
     
     public function writeComment($id){

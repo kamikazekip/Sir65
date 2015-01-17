@@ -50,10 +50,12 @@
                             </div>
                         @endif
                  <div id="functions">
-                     <div id="respectContainer"><img class="respectFunction" id="functionIcon{{e($post->id)}}" onclick="giveRespect('{{e(User::find($post->user_id)->username)}}', {{e($post->id)}}, {{e(User::find($post->user_id)->respect)}}, {{e($post->user_id)}}, {{e($post->respect)}})" 
+                     <div id="respectContainer"><img class="respectFunction" id="functionIcon{{e($post->id)}}" onclick="giveRespect('{{e(User::find($post->user_id)->username)}}', {{e($post->id)}}, {{e(User::find($post->user_id)->respect)}}, 
+                                                     {{e($post->user_id)}}, {{e($post->respect)}}, {{Auth::check() ? round((Auth::user()->respect/50), 0, PHP_ROUND_HALF_DOWN) : 1}})" 
                           src="images/user/functionIcons/respectIconLaugh.png" onmouseover="hover(this, 'images/user/functionIcons/respectIconHover.png')" 
                           onmouseout="unhover(this, 'images/user/functionIcons/respectIconLaugh.png');" title="Click to give respect to this post and {{e(User::find($post->user_id)->username)}}" /></div>
-                     <div id="respectContainer"><img class="dislikeFunction" id="dislikeIcon{{e($post->id)}}" onclick="giveDislike('{{e(User::find($post->user_id)->username)}}', {{e($post->id)}}, {{e(User::find($post->user_id)->respect)}}, {{e($post->user_id)}}, {{e($post->respect)}})" 
+                     <div id="respectContainer"><img class="dislikeFunction" id="dislikeIcon{{e($post->id)}}" onclick="giveDislike('{{e(User::find($post->user_id)->username)}}', {{e($post->id)}}, {{e(User::find($post->user_id)->respect)}}, 
+                                                     {{e($post->user_id)}}, {{e($post->respect)}}, {{Auth::check() ? round((Auth::user()->respect/50), 0, PHP_ROUND_HALF_DOWN) : 1}})" 
                           src="images/user/functionIcons/dislike.png" onmouseover="hover(this, 'images/user/functionIcons/dislikeHover.png')" 
                           onmouseout="unhover(this, 'images/user/functionIcons/dislike.png');" title="Click to dislike respect this post and decrement 1 respect from {{e(User::find($post->user_id)->username)}}" /></div>
                 </div>
