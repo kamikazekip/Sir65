@@ -3,15 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/public_html/css/comment.css</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/views/partials/header.blade.php</file>
+            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/controllers/PostController.php</file>
+            <file>file:/D:/xampp/htdocs/Laravel/Sir65/public_html/js/main.js</file>
             <file>file:/D:/xampp/htdocs/Laravel/Sir65/public_html/css/header.css</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/public_html/css/topic.css</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/public_html/css/user.css</file>
+            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/views/partials/header.blade.php</file>
+            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/views/partials/pages/post/posts.blade.php</file>
             <file>file:/D:/xampp/htdocs/Laravel/Sir65/public_html/css/main.css</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/public_html/css/jquerydropdown.css</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/views/partials/head/head.blade.php</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/public_html/css/post.css</file>
         </group>
     </open-files>
 </project-private>

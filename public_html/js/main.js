@@ -45,11 +45,8 @@ function slideButton(x){
 }
 
 function autoload(composer){
-   var page = document.getElementById('frontPage');
-   var contentHeight = page.offsetHeight;
-   var yOffset = window.pageYOffset;
-   var y = yOffset + window.innerHeight;
-   var percentage = contentHeight * 0.75;
+   var y = window.pageYOffset + window.innerHeight;
+   var percentage = document.getElementById('frontPage').offsetHeight * 0.75;
    if(y >= percentage && callOrdered === false){
        window.callOrdered = true;
        $.ajax({
@@ -57,7 +54,7 @@ function autoload(composer){
         data: { composer: composer },
         url: '/loadMore',
         success: function(data){  
-            if(callOrdered === true){
+            if(callOrdered === true){ //Prevent double loading
                 document.getElementById('mainFrontPage').innerHTML += data;
                 window.callOrdered = false;
             }
@@ -71,7 +68,6 @@ function autoload(composer){
             }
         }
       });
-      
    }
 }  
 
@@ -83,9 +79,8 @@ function unhover(element, path) {
 }
 
 function fadeIn(y, x){
-    var id = y;
     var speed = x;
-    $(id).animate({"opacity":"1"}, speed);
+    $(y).animate({"opacity":"1"}, speed);
 }
 
 function giveProfileRespect(profileID, respect){
