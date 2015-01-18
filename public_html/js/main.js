@@ -67,7 +67,7 @@ function autoload(composer){
                 you can go check out some other content on this site or check out people, but be sure to do some other things that are not Sir 65 from time to time, k? k, stay awesome! :D</div>';
             }
         }
-      });
+      
    }
 }  
 
