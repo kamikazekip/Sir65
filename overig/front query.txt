@@ -1,0 +1,5 @@
+SELECT po.id AS "PostId", po.title AS "PostTitle", po.respect AS "PostRespect", DATE(po.created_at) AS "PostDate" 
+FROM post AS po
+WHERE po.respect >= 5 
+GROUP BY po.id
+ORDER BY DATE(po.created_at) DESC, po.respect DESC

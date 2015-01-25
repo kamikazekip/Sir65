@@ -1,0 +1,6 @@
+SELECT po.id AS "PostId", po.title AS "PostTitle", SUM(re.amount) AS "PostRespect", WEEK(re.created_at) AS "PostWeek" 
+FROM post AS po JOIN respect AS re ON po.id = re.post_id
+WHERE WEEK(re.created_at) = WEEK(NOW())
+GROUP BY po.id 
+HAVING SUM(re.amount) > 2
+ORDER BY SUM(re.amount) DESC

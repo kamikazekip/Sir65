@@ -4,16 +4,6 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/models/Post.php</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/controllers/PostController.php</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/views/partials/pages/user/notifications.blade.php</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/public_html/js/main.js</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/controllers/HomeController.php</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/views/composers/NewComposer.php</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/views/partials/pages/post/post.blade.php</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/public_html/css/user.css</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/routes.php</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/views/composers/PopularComposer.php</file>
-            <file>file:/D:/xampp/htdocs/Laravel/Sir65/main-laravel/app/views/composers/HomeComposer.php</file>
         </group>
     </open-files>
 </project-private>
